@@ -1,4 +1,4 @@
-package j07_NestedIf;
+package j07_NestedIf_Ternaries;
 
 public class GradeReport2 {
 
