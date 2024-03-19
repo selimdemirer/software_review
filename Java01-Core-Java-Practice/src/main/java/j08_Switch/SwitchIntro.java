@@ -8,6 +8,7 @@ package j08_Switch;
 * 'default' block can appear anywhere in the code. It should not be the last one. There can only be one default block.
 * Switch is faster than If.
 * We can use "or (||) logic" in switch by declaring case blocks back to back without using 'break'. We cannot use and (&&) logic.
+* Only comparison that you can use in switch is equal.
 
 */
 

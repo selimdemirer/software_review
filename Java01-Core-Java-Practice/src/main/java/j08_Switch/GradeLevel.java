@@ -1,4 +1,4 @@
-package j09_Scanner;
+package j08_Switch;
 
 public class GradeLevel {
 
