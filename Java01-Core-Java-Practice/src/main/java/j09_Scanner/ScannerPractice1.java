@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // import java.util.*; wild import:imports everything from the package
 
-public class ScannerPractice {
+public class ScannerPractice1 {
 
     public static void main(String[] args) {
 

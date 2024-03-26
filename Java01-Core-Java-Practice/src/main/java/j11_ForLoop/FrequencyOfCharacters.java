@@ -4,8 +4,8 @@ public class FrequencyOfCharacters {
 
     public static void main(String[] args) {
 
-        String str = "AAABBBC";
-        char ch = 'A';
+        String str = "AAABBBC"; // given
+        char ch = 'A'; // given
 
         int frequency = 0;
 
