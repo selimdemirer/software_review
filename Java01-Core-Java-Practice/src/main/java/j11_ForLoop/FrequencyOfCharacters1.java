@@ -1,6 +1,6 @@
 package j11_ForLoop;
 
-public class FrequencyOfCharacters {
+public class FrequencyOfCharacters1 {
 
     public static void main(String[] args) {
 

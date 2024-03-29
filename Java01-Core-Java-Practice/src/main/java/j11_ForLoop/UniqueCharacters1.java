@@ -1,11 +1,10 @@
 package j11_ForLoop;
 
-public class UniqueCharacters {
+public class UniqueCharacters1 {
 
     public static void main(String[] args) {
 
         String str = "zeynep";
-
         String result = "";
 
         for (int i = 0; i < str.length(); i++) {

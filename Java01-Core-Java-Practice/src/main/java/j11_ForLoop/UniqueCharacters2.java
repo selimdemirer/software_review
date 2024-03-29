@@ -1,6 +1,6 @@
-package j14_LoopPractices;
+package j11_ForLoop;
 
-public class UniqueCharacters {
+public class UniqueCharacters2 {
 
     public static void main(String[] args) {
 
@@ -18,11 +18,14 @@ public class UniqueCharacters {
                     count++;
                 }
             }
-            /*
+
+/*
+             // also we can use branch statement
             if (count != 1){ // count>1
             continue;
             }
-             */ // also we can use branch statement
+*/
+
             if (count == 1){ // if the frequency of the character is 1, then the character is unique
                 result += ch;
             }
@@ -32,6 +35,9 @@ public class UniqueCharacters {
         System.out.println(result);
 
 
+    }
+
+}
 /*
 Write a program that can find the unique characters from a string without using indexOf() and lastIndexOf() methods
 
@@ -41,5 +47,3 @@ Write a program that can find the unique characters from a string without using 
                         output:
                                 bdf
  */
-    }
-}
