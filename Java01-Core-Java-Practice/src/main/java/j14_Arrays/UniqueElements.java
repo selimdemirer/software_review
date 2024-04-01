@@ -6,34 +6,14 @@ public class UniqueElements {
 
         String[] words = {"Java", "Java", "C#", "Python", "Python"};
 
-        for (int j = 0; j < words.length; j++) {
-
-            String element = words[j]; // "Java"
+        for (int i = 0; i < words.length; i++) {
+            String element = words[i];
             int frequency = 0;
-            for (int i = 0; i < words.length; i++) { // finds the frequency of element from array
-                if (words[i].equals(element)) {
-                    frequency++;
-                }
+            for (int j = 0; j < words.length; j++) {
+                if (words[j].equals(element)) frequency++;
             }
-
-            if (frequency == 1){
-                System.out.println(element);
-            }
-
+            if (frequency==1) System.out.println(element);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
