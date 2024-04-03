@@ -2,10 +2,11 @@ package j01_EscapeSequences;
 /*
 Escape Sequences: MUST be given within double quote
 
-  \n:Starts a new line
-  \t:Paragraph Space (Tab)
-  \\:Backslash
-  \":Double Quote
+  \n :Starts a new line
+  \t :Paragraph Space (Tab)
+  \\ :Backslash
+  \" :Double Quote
+  \\.:In order to use "." in the split method
 
  */
 public class EscapeSequences {
