@@ -4,7 +4,7 @@ public class StringIntro {
 
     public static void main(String[] args) {
 
-        String name1 = "Wooden Spoon";
+        String name1 = "Wooden Spoon"; // String pool
         String name2 = "Wooden Spoon";
         String name3 = "Wooden Spoon";
         String name4 = "Wooden Spoon";
@@ -15,7 +15,7 @@ public class StringIntro {
 
         System.out.println("------------------------------------");
 
-        String str1 = new String("Wooden Spoon");
+        String str1 = new String("Wooden Spoon"); // Heap
         String str2 = new String("Wooden Spoon");
         String str3 = new String("Wooden Spoon");
         String str4 = new String("Wooden Spoon");
