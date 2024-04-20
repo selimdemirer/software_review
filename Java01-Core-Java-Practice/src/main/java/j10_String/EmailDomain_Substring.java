@@ -11,7 +11,7 @@ public class EmailDomain_Substring {
 
         System.out.println("domain = " + domain);
 
-        System.out.println("-----------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String str1 = "Java is fun, Java is cool";
 
@@ -21,5 +21,7 @@ public class EmailDomain_Substring {
         String s2 = str1.substring(str1.lastIndexOf("J")) ; // Java is cool
         System.out.println("s2 = " + s2);
 
+
     }
+
 }

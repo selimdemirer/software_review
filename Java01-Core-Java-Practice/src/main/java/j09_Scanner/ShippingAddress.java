@@ -33,11 +33,14 @@ public class ShippingAddress {
         System.out.println("Enter your country name");
         String country = input.nextLine();
 
-        System.out.println(fullName+" "+buildingNumber+" "+streetName+" "+cityName+" "+stateName+" "+zipCode+" "+country);
+        System.out.println(fullName + " " + buildingNumber + " " + streetName + " " + cityName + " " + stateName + " " + zipCode + " " + country);
 
         input.close();
 
 
+    }
+
+}
 /*
 1. Enter your full name ----- nextLine()
 2. Enter your building number ----- next()
@@ -57,11 +60,3 @@ Display the shipping address
 
  */
 
-
-
-
-
-
-
-    }
-}

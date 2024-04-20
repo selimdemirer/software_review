@@ -10,13 +10,13 @@ public class DoWhileLoopIntro {
             System.out.println("Wooden Spoon -- for loop");
         }
 
-        System.out.println("---------------------");
+        System.out.println("---------------------1---------------------");
 
         while (a) {
             System.out.println("Wooden Spoon -- while loop"); // 0
         }
 
-        System.out.println("---------------------");
+        System.out.println("---------------------2---------------------");
 
         do {
             System.out.println("Wooden Spoon -- do-while loop");
@@ -24,4 +24,5 @@ public class DoWhileLoopIntro {
 
 
     }
+
 }

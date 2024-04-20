@@ -20,7 +20,7 @@ public class ArraysUtility_Split_ToCharArray {
         System.out.println(words.length);
         System.out.println(words.length - counter);
 
-        System.out.println("=============================================");
+        System.out.println("---------------------1---------------------");
 
         String name1 = "Adam";
         String[] split = name1.split(""); //{"A","d","a","m"}    // Split Method converts to String[]
@@ -38,4 +38,5 @@ public class ArraysUtility_Split_ToCharArray {
 
 
     }
+
 }

@@ -16,7 +16,7 @@ public class MergeTwoArrays2 {
         System.out.println(Arrays.toString(arr3));
 
 
-        System.out.println("----------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String[] a1 = {"A", "B", "C"};
         String[] a2 = {"D", "E", "F"};

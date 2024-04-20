@@ -8,5 +8,7 @@ public class LoopsWithoutCurlyBraces {
             System.out.println("Cydeo"); // if you don't use curly braces, only this one will be executed 5 times
             System.out.println("EU-11");
 
+
     }
+
 }

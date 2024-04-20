@@ -12,12 +12,16 @@ public class StartsWithX {
         System.out.println("Enter a word:");
         String word = new Scanner(System.in).next();
 
-        if (word.charAt(0) == 'x'){
+        if (word.charAt(0) == 'x') {
             word = word.replaceFirst("x", "a");
         }
 
         System.out.println(word);
 
+
+    }
+
+}
 /*
 Write a program that asks user to enter a word. If the word starts with x, replace it with a.
                     Input:
@@ -26,6 +30,3 @@ Write a program that asks user to enter a word. If the word starts with x, repla
                         acodex
  */
 
-
-    }
-}

@@ -2,13 +2,11 @@ package j03_Concatenation;
 
 public class ShippingAddress {
 
-
     public static void main(String[] args) {
         /*
         String name = "James";
         String buildingNumber = "1123B";
          */
-
 
         String  name = "James King",
                 buildingNumber = "11821B",

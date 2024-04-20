@@ -17,7 +17,7 @@ public class NestedIfIntro {
             System.out.println("Invalid Score");
         }
 
-        System.out.println("-----------------------------");
+        System.out.println("---------------------1---------------------");
 
         int age = 17;
         boolean hasID = true;
@@ -34,7 +34,7 @@ public class NestedIfIntro {
             System.out.println("You must have an ID to buy alcohol");
         }
 
-        System.out.println("----------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         int number = -2; // 1~7
             // 1<= number <=7    ==> This math formula does not work in Java
@@ -60,6 +60,7 @@ public class NestedIfIntro {
         }else { // Nested If. if the number is not valid
             System.out.println("Invalid Number");
         }
+
 
     }
 

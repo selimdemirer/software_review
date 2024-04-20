@@ -11,6 +11,6 @@ public class ForEachLoopPractice {
             // System.out.println(each.charAt(0)+""+each.charAt(each.indexOf(" ")+1));
         }
 
-
     }
+
 }

@@ -15,7 +15,7 @@ public class FrequencyOfWord_WhileLoop {
 
         System.out.println("frequency = " + frequency);
 
-        System.out.println("---------------------------");
+        System.out.println("---------------------1---------------------");
 
         String sentence = "Cat cat cat cat dog dog dog cat cat CAT CAT CAT";
 
@@ -28,7 +28,7 @@ public class FrequencyOfWord_WhileLoop {
 
         System.out.println("countCat = " + countCat);
 
-        System.out.println("--------------------------");
+        System.out.println("---------------------2---------------------");
 
         String s = "java java java python python python";
 
@@ -50,13 +50,6 @@ public class FrequencyOfWord_WhileLoop {
         System.out.println("countPython = " + countPython);
 
 
-
-
-
-
-
-
-
-
     }
+
 }

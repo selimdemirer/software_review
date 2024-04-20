@@ -9,7 +9,7 @@ public class Triangle {
         for (int i = 1; i <= rows; ++i) { // it gives just extra lines
 
             for (int j = 1; j <= i; ++j) { // it prints
-                System.out.print( "* ");
+                System.out.print("* ");
             }
 
             System.out.println();
@@ -17,10 +17,9 @@ public class Triangle {
         }
 
 
+    }
 
-
-
-
+}
 /*
 Use a nested loop to print the following shape
 
@@ -36,6 +35,3 @@ Use a nested loop to print the following shape
         * * * * * * * * * *
  */
 
-        
-    }
-}

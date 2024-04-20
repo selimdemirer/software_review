@@ -37,7 +37,9 @@ public class MinMaxNumbers {
 
         scanner.close();
 
+
     }
+
 }
 /*
 Write a program that asks user to enter a number 10 times:

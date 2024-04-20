@@ -43,8 +43,6 @@ public class FieldTrip {
 
         System.out.println("location - " + location + "\nnumber of groups - " + groupNumber + "\nteacher in charge - " + teacher);
 
-
-
     }
 }
 /*

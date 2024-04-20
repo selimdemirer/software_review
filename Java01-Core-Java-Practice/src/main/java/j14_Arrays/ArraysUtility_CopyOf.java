@@ -15,7 +15,7 @@ public class ArraysUtility_CopyOf {
         numbers = Arrays.copyOf(numbers, 5); // {1,2,3,4,5}
         System.out.println(Arrays.toString(numbers));
 
-        System.out.println("-------------------------------");
+        System.out.println("---------------------1---------------------");
 
         char[] ch1 = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'};
         char[] ch2 = Arrays.copyOfRange(ch1,2,6); // 6 excluding like substring method
@@ -31,4 +31,5 @@ public class ArraysUtility_CopyOf {
 
 
     }
+
 }

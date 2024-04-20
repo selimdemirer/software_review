@@ -31,21 +31,6 @@ public class MaxNumber {
         System.out.println(max);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+
 }

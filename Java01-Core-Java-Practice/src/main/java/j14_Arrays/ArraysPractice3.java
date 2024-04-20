@@ -28,7 +28,6 @@ public class ArraysPractice3 {
         scanner.close();
 
 
-
-
     }
+
 }

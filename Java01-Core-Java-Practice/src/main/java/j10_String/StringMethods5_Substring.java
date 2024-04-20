@@ -16,7 +16,8 @@ public class StringMethods5_Substring {
 
         System.out.println(str1);
 
-        System.out.println("-----------------------------------");
+        System.out.println("---------------------1---------------------");
+
         String word2 = "Python C# Ruby";
 
         String s1 = word2.substring(0,  word2.indexOf(" ") ); //"Python"
@@ -30,6 +31,6 @@ public class StringMethods5_Substring {
         System.out.println(s3);
 
 
-
     }
+
 }

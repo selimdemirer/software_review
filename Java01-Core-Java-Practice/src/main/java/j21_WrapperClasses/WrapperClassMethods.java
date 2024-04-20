@@ -35,7 +35,7 @@ public class WrapperClassMethods {
 
         System.out.println(r1);
 
-        System.out.println("============================================");
+        System.out.println("---------------------1---------------------");
 
         String s2 = "123";
         Integer x = Integer.valueOf(s2); // Integer
@@ -53,8 +53,7 @@ public class WrapperClassMethods {
         System.out.println(z);
         System.out.println(d);
 
-        System.out.println("-----------------------------------------------------");
-
+        System.out.println("---------------------2---------------------");
 
         char ch1 = '!';
 
@@ -79,7 +78,7 @@ public class WrapperClassMethods {
         System.out.println(r5);
         System.out.println(r6);
 
-        System.out.println("----------------------------------");
+        System.out.println("---------------------3---------------------");
 
         String s = "ab1cde2efg3hi4";
 

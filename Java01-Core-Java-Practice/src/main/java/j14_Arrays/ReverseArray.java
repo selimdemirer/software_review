@@ -27,13 +27,6 @@ public class ReverseArray {
         System.out.println(Arrays.toString(reversed));
 
 
-
-
-
-
-
-
-
-
     }
+
 }

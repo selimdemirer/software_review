@@ -27,7 +27,6 @@ public class RelationalOperators {
 
         boolean isEligibleForLoan = creditScore >= 720; // if the credit score is 720 or greater, then it's eligible for the loan
 
-
         boolean result5 = 100 < 120; // true
         System.out.println("result5 = " + result5);
 
@@ -40,13 +39,11 @@ public class RelationalOperators {
 
         System.out.println("hasFailed = " + hasFailed);
 
-
         boolean result7 =  45 <= 60;
 
         System.out.println("result7 = " + result7);
 
-
-        System.out.println("------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         int x = 100;
         int y = 200;
@@ -69,7 +66,7 @@ public class RelationalOperators {
 
         //"Hello World" ==  "hello world" ==> false
 
-        System.out.println("---------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         boolean result11 =  100 != 200.5; //true
         System.out.println("result11 = " + result11);
@@ -79,16 +76,6 @@ public class RelationalOperators {
 
         boolean result13 =   300 != 300; // false
         System.out.println("result13 = " + result13);
-
-
-
-
-
-
-
-
-
-
 
 
     }

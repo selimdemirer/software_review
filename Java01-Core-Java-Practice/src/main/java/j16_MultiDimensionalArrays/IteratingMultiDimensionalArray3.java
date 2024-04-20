@@ -1,6 +1,7 @@
 package j16_MultiDimensionalArrays;
 
 public class IteratingMultiDimensionalArray3 {
+
     public static void main(String[] args) {
 
 // index of the elements:  0 1 2     0 1 2 3    0 1 2  3  4
@@ -14,7 +15,6 @@ public class IteratingMultiDimensionalArray3 {
         }
 
 
-
-
     }
+
 }

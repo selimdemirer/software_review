@@ -17,15 +17,13 @@ public class MergeTwoArrays {
             students[i++] = each;
         }
 
-
         for (String each : group2) {
             students[i++] = each;
         }
 
         System.out.println(Arrays.toString(students));
 
-
-        System.out.println("-----------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         char[] ch1 = {'A', 'B', 'C'};
         char[] ch2 = {'D', 'E', 'F', 'G', 'H'};
@@ -47,7 +45,6 @@ public class MergeTwoArrays {
         System.out.println(Arrays.toString(chars));
 
 
-
-
     }
+
 }

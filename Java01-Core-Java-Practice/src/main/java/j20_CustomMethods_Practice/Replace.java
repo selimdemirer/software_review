@@ -12,7 +12,7 @@ public class Replace {
 
         System.out.println(Arrays.toString(arr));
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String[] arr2 = {"Java", "Python", "C++", "Ruby"};
 
@@ -21,7 +21,6 @@ public class Replace {
         System.out.println(Arrays.toString(arr2));
 
     }
-
 
     //replace the elements of the array at given index with the new element
     public static int[] replace(int[] array, int index, int newElement){

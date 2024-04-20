@@ -6,7 +6,7 @@ public class Grade {
 
         char ch = 'B'; // ==
 
-        switch (ch){
+        switch (ch) {
 
             case 'A':
                 System.out.println("Excellent");
@@ -35,9 +35,10 @@ public class Grade {
         }
 
 
+    }
 
-
-//we could have use if statement but switch is faster.
+}
+//we could have used if statement but switch is faster.
 /*
 a char variable named grade is given. use switch statement to print the following messages:
 			'A': excellent
@@ -48,12 +49,3 @@ a char variable named grade is given. use switch statement to print the followin
 			otherwise: invalid
  */
 
-
-
-
-
-
-
-
-    }
-}

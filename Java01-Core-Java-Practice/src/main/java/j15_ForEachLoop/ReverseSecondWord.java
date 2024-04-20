@@ -31,6 +31,7 @@ public class ReverseSecondWord {
 
 
     }
+
 }
 /*
 Write a program that can reverse the second word of the sentence

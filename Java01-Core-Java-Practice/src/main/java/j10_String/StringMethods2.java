@@ -18,11 +18,11 @@ public class StringMethods2 {
 
         System.out.println(str2.isBlank());
 
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         System.out.println(str2.repeat(4));
 
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String s1 = "CYDEO";
         String s2 = "cydeo";
@@ -34,7 +34,7 @@ public class StringMethods2 {
 
         System.out.println( "yEs".equalsIgnoreCase("Yes") );
 
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         String sentence = "My favorite programming language is Java";
 
@@ -50,7 +50,7 @@ public class StringMethods2 {
         System.out.println(hasJava3);
         System.out.println(r3);
 
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------4---------------------");
 
         String input1 = "I love jAvA";
         String input2 = "Java";
@@ -64,7 +64,7 @@ public class StringMethods2 {
         System.out.println(input1.toUpperCase().contains("JAVA")); // true
         System.out.println(input1.toUpperCase().contains(input2)); // false
 
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------5---------------------");
 
         String a = "Wooden Spoon"; //"wooden spoon"
 
@@ -76,6 +76,7 @@ public class StringMethods2 {
         System.out.println(x); //true
         System.out.println(y); //true
         System.out.println(z); //true
+
 
     }
 

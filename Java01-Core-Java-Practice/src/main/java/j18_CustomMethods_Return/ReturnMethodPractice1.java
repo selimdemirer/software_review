@@ -19,7 +19,6 @@ public class ReturnMethodPractice1 {
 
     }
 
-
     public static int max(int a, int b){
 
         int result = 0;
@@ -32,8 +31,6 @@ public class ReturnMethodPractice1 {
 
         return result;
     }
-
-
 
 
 }

@@ -34,7 +34,9 @@ public class LogIn {
 
         scanner.close();
 
+
     }
+
 }
 /*
     You are writing a code for the log-in function of the Cydeo Application, assume that your credentials are:

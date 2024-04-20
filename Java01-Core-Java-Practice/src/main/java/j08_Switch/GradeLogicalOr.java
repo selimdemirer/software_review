@@ -27,22 +27,13 @@ public class GradeLogicalOr {
 
         System.out.println(result);
 
-   /*
+
+    }
+
+}
+/*
         A,B,C,D must print Passed
         F must print Failed
         Otherwise must print Invalid
 
-    */
-
-
-
-
-
-
-
-
-
-
-
-    }
-}
+*/

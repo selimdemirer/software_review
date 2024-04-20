@@ -3,17 +3,17 @@ package j05_Operators;
 public class ShortHandOperators {
 
     public static void main(String[] args) {
-        
+
         //Assignment: = updating the value
         int number = 100;
         System.out.println(number);//it is 100 for now
         number = 200;
         System.out.println(number);//it is 200 anymore
-        
+
         String word = "Java Programming";
         System.out.println(word);//Java Programming
-        
-        word= "Wooden Spoon";
+
+        word = "Wooden Spoon";
         System.out.println(word);//Wooden Spoon
 
         /*
@@ -23,9 +23,9 @@ public class ShortHandOperators {
          */
 
         //Addition Assignment
-        int x =100;
+        int x = 100;
         System.out.println("x = " + x);
-        System.out.println(x+200); //output 300
+        System.out.println(x + 200); //output 300
         System.out.println("x = " + x);//but x is still 100
 
         //x = x + 200;
@@ -48,7 +48,7 @@ public class ShortHandOperators {
         availableBalance += 300;
         System.out.println("availableBalance = " + availableBalance); //1300.5$
 
-        System.out.println("---------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         //Subtraction Assignment
 
@@ -57,11 +57,11 @@ public class ShortHandOperators {
         System.out.println("availableBalance = " + availableBalance);//800.5$
 
         //withdrawing 200$, then depositing 400$
-        availableBalance-=200;//600.5
-        availableBalance +=400; //1000.5$
+        availableBalance -= 200;//600.5
+        availableBalance += 400; //1000.5$
         System.out.println("availableBalance = " + availableBalance);
 
-        System.out.println("---------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         //Multiplication Assignment
 
@@ -73,15 +73,15 @@ public class ShortHandOperators {
         doge *= 1000000;
         System.out.println("dodge = " + doge);
 
-        System.out.println("----------------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         //Division Assignment
 
         double num2 = 25000;
-        num2 /= 2 ; // num2 = num2 / 2;
+        num2 /= 2; // num2 = num2 / 2;
         System.out.println("num2 = " + num2);
 
-        System.out.println("------------------------------------------------");
+        System.out.println("---------------------4---------------------");
 
         //Remainder Assignment
 
@@ -90,9 +90,9 @@ public class ShortHandOperators {
         num3 %= 3; // %=
         System.out.println("num3 = " + num3);
 
-        System.out.println("-----------------------------------------");
+        System.out.println("---------------------5---------------------");
 
-        int amount =127; //cents
+        int amount = 127; //cents
 
         int quarters = amount / 25;
         int cents = amount % 25;
@@ -100,13 +100,13 @@ public class ShortHandOperators {
         System.out.println("quarters = " + quarters);
         System.out.println("cents = " + cents);
 
-        System.out.println("-----------------");
+        System.out.println("---------------------6---------------------");
 
         int cents2 = 127;
         cents2 %= 25;
         System.out.println("cents2 = " + cents2);
 
-        System.out.println("-----------------");
+        System.out.println("---------------------7---------------------");
 
         int y = 300;
 
@@ -114,43 +114,7 @@ public class ShortHandOperators {
 
         System.out.println("y = " + y);
 
-
-
-
-
-
-
-
-
-
-
-
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
     }
+
+}
 

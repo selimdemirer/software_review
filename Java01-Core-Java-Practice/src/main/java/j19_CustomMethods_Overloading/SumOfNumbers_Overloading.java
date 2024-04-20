@@ -15,7 +15,7 @@ public class SumOfNumbers_Overloading {
         char[] charArray = {'E', 'F', 'B', 'D', 'C', 'A'};
         Arrays.sort(charArray);
 
-        System.out.println("-------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         //sum of 10 and 20
         int sum1 = sumOfNumbers(10, 20);

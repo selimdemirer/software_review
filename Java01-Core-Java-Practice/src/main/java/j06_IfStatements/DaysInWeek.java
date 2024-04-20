@@ -29,8 +29,6 @@ public class DaysInWeek {
 
         System.out.println(result);
 
-
     }
-
 
 }

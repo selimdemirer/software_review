@@ -19,7 +19,7 @@ public class PrimitiveCastings {
 
         double f = e; // implicit casting
 
-        //----------------------------------------
+        System.out.println("---------------------1---------------------");
 
         int x = 55;
         short y = (short)x; // explicit casting

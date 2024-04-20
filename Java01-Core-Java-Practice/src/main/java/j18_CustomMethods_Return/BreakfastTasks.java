@@ -6,11 +6,11 @@ public class BreakfastTasks {
 
         initials("cydeo", "school");
 
-        System.out.println("----------------------------");
+        System.out.println("---------------------1---------------------");
 
         domain("Cydeo.School@amazon.com");
 
-        System.out.println("-----------------------------");
+        System.out.println("---------------------2---------------------");
 
         String[] emails = {"josh@gmail.com", "Jim@yahoo.com", "Elminur@cydeo.com", "Gulsen@gmail.com"};
 
@@ -18,7 +18,7 @@ public class BreakfastTasks {
             domain(email);
         }
 
-        System.out.println("-----------------------------");
+        System.out.println("---------------------3---------------------");
 
         nameOfMonth(3);
 
@@ -36,7 +36,6 @@ public class BreakfastTasks {
 
     }
 
-
     //2. Create a method that can display the domain of the email.
     public static void domain(String email) { // Cydeo.School@gmail.com
 
@@ -44,7 +43,6 @@ public class BreakfastTasks {
         System.out.println("domain = " + domain);
 
     }
-
 
     //3. Create a method that can display the name of the month based on the given number to the method
     public static void nameOfMonth(int number) {  // 95
@@ -60,7 +58,6 @@ public class BreakfastTasks {
         System.out.println("Month Name = " + name);
 
     }
-
 
     //4. Create a method that can print the name of the day based on the given number to the method
     public static void nameOfDay(int number) {
@@ -108,8 +105,6 @@ public class BreakfastTasks {
         System.out.println("Number Of Days Of " + number + ". Month = " + result);
 
     }
-
-    // ageGroups(int age)
 
 
 }

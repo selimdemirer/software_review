@@ -2,7 +2,6 @@ package j18_CustomMethods_Return;
 
 public class ReturnMethodPractice2 {
 
-
     public static void main(String[] args) {
 
         //create a function that can calculate the grade

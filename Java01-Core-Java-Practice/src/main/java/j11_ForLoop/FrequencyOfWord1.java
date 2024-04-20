@@ -15,7 +15,9 @@ public class FrequencyOfWord1 {
 
         System.out.println("frequency = " + frequency);
 
+
     }
+
 }
 /*
 write a program that can return the frequency of the word Java from the sentence

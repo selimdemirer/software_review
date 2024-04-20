@@ -2,7 +2,6 @@ package j18_CustomMethods_Return;
 
 public class ReturnStatement1 {
 
-
     public static void main(String[] args) {
 
         nameOfDay(8);
@@ -36,5 +35,6 @@ public class ReturnStatement1 {
         }
 
     }
+
 
 }

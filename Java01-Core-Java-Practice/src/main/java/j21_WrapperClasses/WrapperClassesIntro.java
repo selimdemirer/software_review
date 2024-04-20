@@ -11,7 +11,7 @@ public class WrapperClassesIntro {
 
         int num2 = n1;  //unboxing
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         Integer integerValue = 100;
 
@@ -24,7 +24,7 @@ public class WrapperClassesIntro {
         int a3 = b1; //unboxing
         long a4 = b1; //unboxing
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         int num3 = 200;
         // Long l2 = num3;
@@ -33,12 +33,12 @@ public class WrapperClassesIntro {
         Integer num4 = num3; //autoboxing
 
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         Integer z = 900;
         Integer y =z;
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------4---------------------");;
 
         int[] numbers1 = {1,2,3,4,5};
         Integer[] numbers2 = {1,2,3,4,5};

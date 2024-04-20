@@ -22,7 +22,7 @@ public class SingleIfStatementInfo {
             System.out.println(number+ " is odd number");
         }
 
-        System.out.println("----------------------------------");
+        System.out.println("---------------------1---------------------");
 
         int n = 200;
 

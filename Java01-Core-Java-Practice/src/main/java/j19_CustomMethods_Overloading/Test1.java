@@ -10,7 +10,7 @@ public class Test1 {
 
         StringUtility.printEachChar(str);
 
-        System.out.println("--------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String s1 = "Cydeo School";
 
@@ -18,7 +18,7 @@ public class Test1 {
 
         System.out.println(reverse);
 
-        System.out.println("-----------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String word = "Java";
 
@@ -26,7 +26,7 @@ public class Test1 {
 
         System.out.println("Is " + word + " a palindrome? = " + palindrome);
 
-        System.out.println("-----------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         String[] names = {"Anna", "Java", "Python", "racecar", "Mom", "Cydeo"};
 
@@ -40,7 +40,7 @@ public class Test1 {
 
         System.out.println(count);
 
-        System.out.println("-----------------------------------------");
+        System.out.println("---------------------4---------------------");
 
         String s2 = "aaaaabbbbbbccccddddd";
 

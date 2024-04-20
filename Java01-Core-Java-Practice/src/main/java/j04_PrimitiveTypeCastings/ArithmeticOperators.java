@@ -1,6 +1,5 @@
 package j04_PrimitiveTypeCastings;
 
-
 public class ArithmeticOperators {
 
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class ArithmeticOperators {
         System.out.println(100 - 50); // 50, subtraction
         System.out.println(10 * 6);  // 60, multiplication
 
-        System.out.println("=====================================");
+        System.out.println("---------------------1---------------------");
 
         System.out.println( 10 / 4 ); //2
         System.out.println( 10.0 / 4 ); //2.5
@@ -20,7 +19,7 @@ public class ArithmeticOperators {
         System.out.println( 10 / 4D ); //2.5
         System.out.println( 10d / 4D ); //2.5
 
-        System.out.println("=====================================");
+        System.out.println("---------------------2---------------------");
 
         int a = 100;
         double b = a/6 ; //16.0
@@ -28,14 +27,14 @@ public class ArithmeticOperators {
 
         System.out.println(b);
 
-        System.out.println("=====================================");
+        System.out.println("---------------------3---------------------");
 
         double c = (double)a/6; //16.66666 //actually this is an implicit casting (int->double). we don't have to cast it. But if we don't, the result will change like the below:
         // double c = a/6; //16.0
 
         System.out.println(c);
 
-        System.out.println("=====================================");
+        System.out.println("---------------------4---------------------");
 
         System.out.println( 100D );
 
@@ -43,8 +42,6 @@ public class ArithmeticOperators {
     }
 
 }
-
-
 /*
     +: Addition
     -: Subtract

@@ -18,7 +18,7 @@ public class PosNegZero {
             System.out.println("Zero");
         }
 
-        System.out.println("---------------------------");
+        System.out.println("---------------------1---------------------");
 
         boolean positive = n>0;
         boolean negative = n<0;
@@ -31,7 +31,7 @@ public class PosNegZero {
             System.out.println("zero");
         }
 
-        System.out.println("---------------------------");
+        System.out.println("---------------------2---------------------");
 
                                                 // There are three conditions/possibilities, but if we use one
         if (positive){                          // independent "If Statement" and one "If & Else Statement" the result
@@ -43,8 +43,6 @@ public class PosNegZero {
         }else {
             System.out.println("zero");
         }
-
-
 
 
     }

@@ -18,7 +18,6 @@ public class RemoveElements2 {
 
     }
 
-
     //                              {1,2,3,4,3}         4
     public static int[] removeElement(int[] array, int index){
 

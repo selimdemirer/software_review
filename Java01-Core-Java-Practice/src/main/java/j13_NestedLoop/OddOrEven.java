@@ -21,21 +21,20 @@ public class OddOrEven {
             System.out.println("Would you like to enter another number?");
             String a = scanner.next().toLowerCase();
 
-            while (!(a.equals("yes") || a.equals("no"))){
+            while (!(a.equals("yes") || a.equals("no"))) {
                 System.err.println("Invalid Entry, Would you like to enter another number?");
                 a = scanner.next().toLowerCase();
             }
 
-            if (a.equals("no")){
+            if (a.equals("no")) {
                 break;
             }
         }
 
 
+    }
 
-
-
-
+}
 /*
 Write a program that asks user to enter a number , and check if the number is odd or even.
         if it's odd, print "Odd Number"
@@ -46,12 +45,3 @@ Write a program that asks user to enter a number , and check if the number is od
                 if user enters no, print nothing
                 If user enters invalid answer, repeat the previous steps
  */
-
-
-
-
-
-
-
-    }
-}

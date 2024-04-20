@@ -16,7 +16,7 @@ public class IteratingMultiDimensionalArray2 {
 
         }
 
-        System.out.println("-------------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         for (int i = 0; i < arr2D.length; i++) { // i: indexes of each 1D array started from 0
 
@@ -28,7 +28,7 @@ public class IteratingMultiDimensionalArray2 {
 
         }
 
-        System.out.println("------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         for (int i = arr2D.length - 1; i >= 0; i--) { // i: index number of 1D arrays starting from last index to 0
 
@@ -41,11 +41,9 @@ public class IteratingMultiDimensionalArray2 {
         }
 
 
-
     }
 
 }
-
 /*
 PRINT:
     task1:

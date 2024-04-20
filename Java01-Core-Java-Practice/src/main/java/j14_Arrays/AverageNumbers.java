@@ -28,6 +28,7 @@ public class AverageNumbers {
         scanner.close();
 
     }
+
 }
 
 /*

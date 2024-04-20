@@ -24,6 +24,7 @@ public class DigitsLettersSpecialChars {
         System.out.println("letters = " + letters);
         System.out.println("chars = " + chars);
 
+
     }
 
 }

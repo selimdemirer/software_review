@@ -18,7 +18,7 @@ public class ArraysUtility_Equals {
         System.out.println(str.toString());
      */
 
-        System.out.println("----------------------------");
+        System.out.println("---------------------1---------------------");
 
         int[] scores = {95, 100, 55, 65, 85, 78};
         System.out.println(Arrays.toString(scores));
@@ -27,7 +27,7 @@ public class ArraysUtility_Equals {
         System.out.println("Min Score: " + scores[0]);
         System.out.println("Max Score: " + scores[scores.length - 1]);
 
-        System.out.println("-------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String[] names = {"Gunay", "Anna", "Zuhal", "Ahmet", "Maria", "Sinem"};
         Arrays.sort(names);
@@ -37,7 +37,7 @@ public class ArraysUtility_Equals {
         Arrays.sort(words);
         System.out.println(Arrays.toString(words));
 
-        System.out.println("=======================================");
+        System.out.println("---------------------3---------------------");
 
         int[] arr1 = {1, 3, 2};
         int[] arr2 = {1, 2, 3};
@@ -51,7 +51,7 @@ public class ArraysUtility_Equals {
         boolean r2 = Arrays.equals(arr1,arr2);
         System.out.println(r2);
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------4---------------------");
 
         char[] ch1 = {'a','c','b'};
         char[] ch2 = {'b','a','c'};
@@ -65,9 +65,6 @@ public class ArraysUtility_Equals {
         System.out.println(ch1); // You don't need to use toString method with "char[]", it doesn't return hashcode
 
 
-
-
-
-
     }
+
 }

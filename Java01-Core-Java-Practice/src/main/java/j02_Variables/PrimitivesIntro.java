@@ -33,10 +33,8 @@ public class PrimitivesIntro {
         char ch4 = 31;
         System.out.println("ch4 = " + ch4);
 
-
         char gender = 'M';
         System.out.println(gender);
-
 
         boolean isEmployeed = true;
         boolean isMarried = false;

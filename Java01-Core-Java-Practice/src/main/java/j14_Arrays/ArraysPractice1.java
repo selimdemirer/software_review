@@ -10,7 +10,7 @@ public class ArraysPractice1 {
         int[] number = {10,20,50,70}; // size: 4
         System.out.println(Arrays.toString(number));
 
-        System.out.println("-----------------------------------");
+        System.out.println("---------------------1---------------------");
 
         // create a variable that can contain 5 scores
         int[] scores = new int[5];
@@ -21,11 +21,7 @@ public class ArraysPractice1 {
         scores[2] = 55;
         System.out.println(Arrays.toString(scores));
 
-        System.out.println("-----------------------------------");
-
-
-
-
 
     }
+
 }

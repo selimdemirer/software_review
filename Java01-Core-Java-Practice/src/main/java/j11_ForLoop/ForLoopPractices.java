@@ -10,7 +10,7 @@ public class ForLoopPractices {
 
         System.out.println("\nHello"); // This println is just to show that previous print statement does not append a new line!
 
-        System.out.println("-------------------------");
+        System.out.println("---------------------1---------------------");
 
         // print all the even numbers between 1~55
 
@@ -21,7 +21,7 @@ public class ForLoopPractices {
         }
 
         System.out.println();
-        System.out.println("-----------OR---------");
+        System.out.println("--------------------- or ---------------------");
 
         for (int i = 2; i <=54; i += 2){
             System.out.print(i+" ");

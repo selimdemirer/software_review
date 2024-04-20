@@ -17,5 +17,7 @@ public class MinNumberOfArray {
 
         System.out.println(min);
 
+
     }
+
 }

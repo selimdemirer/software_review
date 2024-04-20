@@ -10,8 +10,6 @@ public class Return_vs_ExitMethod {
 
     }
 
-
-
     public static void nameOfMonth(int number){  // 95
 
         if(number < 1 || number > 12){// if number is invalid
@@ -27,7 +25,6 @@ public class Return_vs_ExitMethod {
         System.out.println("Month name = " + name);
 
     }
-
 
 
 }

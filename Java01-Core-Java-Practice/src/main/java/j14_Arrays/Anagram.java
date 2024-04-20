@@ -29,6 +29,6 @@ public class Anagram {
         System.out.println("anagram = " + anagram);
 
 
-
     }
+
 }

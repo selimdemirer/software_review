@@ -17,7 +17,7 @@ public class TernariesWithNestedIf {
             System.out.println("Invalid Score");
         }
 
-        System.out.println("--------or/Do it with Ternary---------");
+        System.out.println("-------- or/Do it with Ternary ---------");
 
         String result = (s>=0 && s<=100)? (s>=60)? "Passed" : "Failed" : "Invalid Score";
 

@@ -24,6 +24,7 @@ public class Initials {
 
         scan.close();
 
+
     }
 
 }

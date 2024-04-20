@@ -19,12 +19,14 @@ public class MarriageProposal {
         if (a.equals("yes")){
             System.out.println("Congrats");
         }else {
-            System.out.println("Goodbye");
+            System.out.println("Harakiri");
         }
 
         input.close();
 
+
     }
+
 }
 /*
 Write a program for the  marriage proposal program asking the user, "Will you marry me?"

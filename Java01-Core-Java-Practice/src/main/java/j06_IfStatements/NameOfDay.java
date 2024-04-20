@@ -23,7 +23,7 @@ public class NameOfDay {
             System.out.println("sunday");
         }
 
-        System.out.println("-----------------------------");
+        System.out.println("---------------------1---------------------");
 
         //Solution with one print statement only
         String day;

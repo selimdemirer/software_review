@@ -19,7 +19,6 @@ public class ReplaceAll {
 
     }
 
-
     // replaces all the matching old values of the array with the new value
     public static int[] replaceAll(int[] array, int oldValue, int newValue) {
         for (int i = 0; i < array.length; i++) {

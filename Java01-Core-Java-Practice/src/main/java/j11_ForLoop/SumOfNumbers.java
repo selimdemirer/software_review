@@ -16,7 +16,7 @@ public class SumOfNumbers {
 
         System.out.println("sum = " + sum);
 
-        System.out.println("=====================================");
+        System.out.println("---------------------1---------------------");
 
         // Write a program that can calculate the sum of given 5 numbers
 
@@ -32,4 +32,5 @@ public class SumOfNumbers {
 
 
     }
+
 }

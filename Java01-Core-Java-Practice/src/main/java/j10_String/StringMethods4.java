@@ -10,7 +10,7 @@ public class StringMethods4 {
         System.out.println("str1 = " + str1);
         System.out.println("str2 = " + str2);
 
-        System.out.println("---------------------------");
+        System.out.println("---------------------1---------------------");
 
         String email1 = "johnsmith@yahoo.com";
         String email2 =email1.replace("yahoo","gmail");
@@ -27,12 +27,6 @@ public class StringMethods4 {
         System.out.println("s4 = " + s4);
 
 
-
-
-
-
-
-
-
     }
+
 }

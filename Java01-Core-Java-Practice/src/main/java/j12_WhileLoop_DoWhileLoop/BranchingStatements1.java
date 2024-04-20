@@ -15,7 +15,7 @@ public class BranchingStatements1 {
             }
         }
         System.out.println();
-        System.out.println("----------------------");
+        System.out.println("---------------------1---------------------");
 
         Scanner input = new Scanner(System.in);
 
@@ -28,17 +28,6 @@ public class BranchingStatements1 {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
+
 }

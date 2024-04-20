@@ -9,7 +9,7 @@ public class Test {
         int int1 = Integer.parseInt(str1);
         Integer Integer1 = int1;
 
-        System.out.println("==================================");
+        System.out.println("---------------------1---------------------");
 
         // String to Integer
         String str2 = "123";
@@ -18,7 +18,7 @@ public class Test {
 
         System.out.println(int1==int2);
 
-        System.out.println("==================================");
+        System.out.println("---------------------2---------------------");
 
         // int to String
         int int3 = 123;

@@ -11,23 +11,14 @@ public class EligibleToVote {
         boolean isEligible = age >= 21 && citizen == "USA"; // True
 
         // Eligible
-        if (isEligible){ // True
+        if (isEligible) { // True
             System.out.println("Eligible");
         }
 
         // Not Eligible
-        if (!isEligible){ // !True=False ==> the body of if block will not be executed
+        if (!isEligible) { // !True=False ==> the body of if block will not be executed
             System.out.println("Not Eligible");
         }
-
-
-
-
-
-
-
-
-
 
     }
 

@@ -50,8 +50,12 @@ public class MyInfo {
         System.out.println("Age: " + age);
         System.out.println("Gender: " + gender);
         System.out.println("Phone number: " + phoneNumber);
-        System.out.println("Address: \n\t" + building+" "+street+"\n\t"+city+", "+state+" "+zip);
-        System.out.println("School name: "+schoolName);
+        System.out.println("Address: \n\t" + building + " " + street + "\n\t" + city + ", " + state + " " + zip);
+        System.out.println("School name: " + schoolName);
+
+
+    }
+}
 /*
 Create a class called MyInfo. Write a program that can ask the user to:
 			1. Enter your age (int --> nextInt() )
@@ -82,6 +86,3 @@ Create a class called MyInfo. Write a program that can ask the user to:
 
 			6. school name
  */
-
-    }
-}

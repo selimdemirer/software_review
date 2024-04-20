@@ -14,9 +14,9 @@ public class NestedLoopPractice {
         }
 
 
+    }
 
-
-
+}
 
 /*
 Print the following shape by using a nested Loop:
@@ -30,10 +30,3 @@ Print the following shape by using a nested Loop:
          * * * * * * * * *
 
  */
-
-
-
-
-    }
-
-}

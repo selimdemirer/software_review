@@ -9,7 +9,7 @@ public class UnaryOperators {
         System.out.println( num1 < 0 ); //false
         System.out.println( num2 < 0 ); //true
 
-        System.out.println("----------------------");
+        System.out.println("---------------------1---------------------");
 
         int a = 5;
         ++a; // pre increment: increases the value by 1 immediately
@@ -20,7 +20,7 @@ public class UnaryOperators {
 
         System.out.println(a);
 
-        System.out.println("----------------------");
+        System.out.println("---------------------2---------------------");
 
         int b = 100;
 
@@ -31,7 +31,7 @@ public class UnaryOperators {
         System.out.println(c++); // post increment: it passed the current value, 100. Eventually increases the value by 1
         System.out.println(c); // 101
 
-        System.out.println("---------------------------");
+        System.out.println("---------------------3---------------------");
 
         int x = 200;
 
@@ -42,21 +42,13 @@ public class UnaryOperators {
         System.out.println(y--); // post decrement, 200
         System.out.println(y); // 199
 
-        System.out.println("-----------------------");
+        System.out.println("---------------------4---------------------");
 
         int z = 45;
 
         System.out.println(++z); // 46, z=46
         System.out.println(z++); // 46, z=47
         System.out.println(z); // 47
-
-
-
-
-
-
-
-
 
 
     }

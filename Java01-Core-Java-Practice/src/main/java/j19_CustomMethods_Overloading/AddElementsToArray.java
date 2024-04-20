@@ -12,14 +12,14 @@ public class AddElementsToArray {
 
         System.out.println(Arrays.toString(arr));
 
-        System.out.println("---------------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         double[] arr2 = {1.5, 2.5, 3.5, 4.5};
         arr2 = addDouble(arr2, 5.5); // {1.5, 2.5, 3.5, 4.5, 5.5}
 
         System.out.println(Arrays.toString(arr2));
 
-        System.out.println("---------------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String[] names = {"Tatiana", "Oleksandr", "Cassandra", "Ali"};  //"Neira"
 
@@ -29,7 +29,7 @@ public class AddElementsToArray {
 
         System.out.println(Arrays.toString(names));
 
-        System.out.println("---------------------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         char[] chars = {'A', 'B', 'C', 'D'};
         chars = addChar(chars, 'E'); //{'A', 'B', 'C', 'D', 'E'}
@@ -54,7 +54,6 @@ public class AddElementsToArray {
 
     }
 
-
     //2. create a return method called addDouble that can add a double after the last index of a double array
     public static double[] addDouble(double[] array, double element) {
         double[] result = new double[array.length + 1];
@@ -71,7 +70,6 @@ public class AddElementsToArray {
 
     }
 
-
     //3. create a return method called addString that can add a String after the last index of a String array
     public static String[] addString(String[] array, String element) {
         String[] result = new String[array.length + 1];
@@ -87,7 +85,6 @@ public class AddElementsToArray {
         return result;
 
     }
-
 
     //4. create a return method called addChar that can add a char after last index of a char array
     public static char[] addChar(char[] array, char element) {

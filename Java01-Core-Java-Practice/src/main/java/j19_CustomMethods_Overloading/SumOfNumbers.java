@@ -13,7 +13,6 @@ public class SumOfNumbers {
         int sum4 = sumOf4Numbers(10, 20, 30, 40);
         System.out.println("sum3 = " + sum4);
 
-
     }
 
     public static int sumOf2Numbers(int num1, int num2) {

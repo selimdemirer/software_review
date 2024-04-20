@@ -23,6 +23,7 @@ public class FrequencyOfCharacters2 {
 
 
     }
+
 }
 /*
 Write a program that can find the frequency of the characters from a string

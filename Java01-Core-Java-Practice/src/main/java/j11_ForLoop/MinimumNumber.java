@@ -20,7 +20,9 @@ public class MinimumNumber {
 
         scanner.close();
 
+
     }
+
 }
 /*
 Write a program that asks the user to enter a number for 5 times

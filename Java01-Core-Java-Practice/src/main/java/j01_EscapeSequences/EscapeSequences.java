@@ -14,11 +14,11 @@ public class EscapeSequences {
 
         System.out.println("Java \nPython \nC#");
 
-        System.out.println("---------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         System.out.println("Hello Cydeo \n\nHow are you all? \nIt's nice to see you all! \nWhat class do we have next week?");
 
-        System.out.println("-----------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         System.out.println("\tJava is Cool Programming Language");
 
@@ -26,7 +26,7 @@ public class EscapeSequences {
 
         System.out.println("/ \\\\"); //If you need 1 backslash, you need to type 2
 
-        System.out.println("---------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         System.out.println("My favourite TV show is \"Patriot Act\"");
     }

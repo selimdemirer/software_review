@@ -19,12 +19,12 @@ public class ArraysIntro {
         System.out.println(myGroup); //hashcode
         System.out.println(Arrays.toString(myGroup));
 
-        System.out.println("------------------------------------------------------------------");
+        System.out.println("---------------------1---------------------");
               //index:      0         1          2           3        4         5         6
         String[] days = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
         System.out.println(Arrays.toString(days));
 
-        System.out.println("------------------------------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         int number = 11;
 
@@ -35,5 +35,7 @@ public class ArraysIntro {
 
         System.out.println(days[number-1]);
 
+
     }
+
 }

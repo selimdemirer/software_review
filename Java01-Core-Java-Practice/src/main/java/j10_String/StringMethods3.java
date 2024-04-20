@@ -9,7 +9,7 @@ public class StringMethods3 {
 
         System.out.println(str1);
 
-        System.out.println("----------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String str2 = "Cydeo School";
 
@@ -24,7 +24,7 @@ public class StringMethods3 {
         int n4 = str3.lastIndexOf("g");
         System.out.println("n4 = " + n4);
 
-        System.out.println("----------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String s = "Java Nova Cava Wava orange";
         int firstA = s.indexOf("a");
@@ -43,4 +43,5 @@ public class StringMethods3 {
 
 
     }
+
 }

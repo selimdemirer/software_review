@@ -13,7 +13,7 @@ public class StringIntro {
         System.out.println(name2 == name3 ); // true
         System.out.println(name3 == name4); // true
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String str1 = new String("Wooden Spoon"); // Heap
         String str2 = new String("Wooden Spoon");
@@ -24,7 +24,7 @@ public class StringIntro {
         System.out.println( str2 == str3 ); // false
         System.out.println( str3 == str4); // false
 
-        System.out.println("------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String s1 = "Java";
         String s2 =new String("Java");
@@ -37,5 +37,7 @@ public class StringIntro {
 
         System.out.println( s3.equals(s4) ); // false
 
+
     }
+
 }

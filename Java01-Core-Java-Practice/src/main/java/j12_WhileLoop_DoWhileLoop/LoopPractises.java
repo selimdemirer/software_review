@@ -8,7 +8,7 @@ public class LoopPractises {
             System.out.println(i);
         }
 
-        System.out.println("--------------------");
+        System.out.println("---------------------1---------------------");
 
         int j=1; // initialization must be out of the while loops
         while (j<=10){
@@ -16,7 +16,7 @@ public class LoopPractises {
             j++; // Iterator must be given at the very end in while loops
         }
 
-        System.out.println("--------------------");
+        System.out.println("---------------------2---------------------");
 
         int k=1; // initialization must be out of the do-while loops
         do {
@@ -25,4 +25,5 @@ public class LoopPractises {
         }while (k<=10);
 
     }
+
 }

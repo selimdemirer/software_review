@@ -17,7 +17,9 @@ public class FrequencyOfCharacters1 {
 
         System.out.println("frequency = " + frequency);
 
+
     }
+
 }
 /*
 Write a program that can return the frequency of a char from a String

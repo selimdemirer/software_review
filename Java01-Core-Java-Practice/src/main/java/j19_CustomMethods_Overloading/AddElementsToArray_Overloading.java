@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class AddElementsToArray_Overloading {
 
-
     public static void main(String[] args) {
 
         int[] numbers = {1,2,3,4,5,6};  //7
@@ -24,9 +23,7 @@ public class AddElementsToArray_Overloading {
         System.out.println("chars = " + Arrays.toString(chars) );
         System.out.println("names = " + Arrays.toString(names));
 
-
     }
-
 
     //1. create a return method called addInteger that can add an Integer  after the  last index of an integer array
     public static int[] addElement(int[] array, int element){
@@ -41,7 +38,6 @@ public class AddElementsToArray_Overloading {
 
         return result;
     }
-
 
     //2. create a return method called addDouble that can add a double after the last index of a double array
     public static double[] addElement(double[] array, double element){
@@ -59,7 +55,6 @@ public class AddElementsToArray_Overloading {
 
     }
 
-
     //3. create a return method called addString that can add a String after the last index of a String array
     public static String[] addElement(String[] array, String element){
         String[] result = new String[array.length + 1];
@@ -76,7 +71,6 @@ public class AddElementsToArray_Overloading {
 
     }
 
-
     //4. create a return method called addChar that can add a char after last index of a char array
     public static char[] addElement(char[] array, char element){
         char[] result = new char[array.length + 1];
@@ -92,8 +86,6 @@ public class AddElementsToArray_Overloading {
         return result;
 
     }
-
-
 
 
 }

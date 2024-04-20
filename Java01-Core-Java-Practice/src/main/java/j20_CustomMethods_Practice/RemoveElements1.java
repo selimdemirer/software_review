@@ -16,7 +16,6 @@ public class RemoveElements1 {
 
     }
 
-
     //removes the index from the array, returns new array
     public static int[] removeElement(int[] array, int index) {
 
@@ -36,7 +35,6 @@ public class RemoveElements1 {
         }
         return result;
     }
-
 
     //removes the index from the array, returns new array
     public static double[] removeElement(double[] array, int index) {
@@ -58,7 +56,6 @@ public class RemoveElements1 {
         return result;
     }
 
-
     //removes the index from the array, returns new array
     public static char[] removeElement(char[] array, int index) {
 
@@ -78,7 +75,6 @@ public class RemoveElements1 {
         }
         return result;
     }
-
 
     //removes the index from the array, returns new array
     public static String[] removeElement(String[] array, int index) {

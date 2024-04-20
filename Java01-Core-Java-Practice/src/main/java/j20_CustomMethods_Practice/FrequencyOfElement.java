@@ -12,7 +12,6 @@ public class FrequencyOfElement {
 
     }
 
-
     //returns the frequency of the given element from the given array
     public static int frequencyOfElement(int[] array, int element) {
         int count = 0;

@@ -22,12 +22,10 @@ public class NextLinePractice {
         input.close();
 
 
+    }
+
+}
 /*
 1.Ask the user to enter age --> nextInt
 2.Ask the user to enter full name --> nextLine()
  */
-
-
-
-    }
-}

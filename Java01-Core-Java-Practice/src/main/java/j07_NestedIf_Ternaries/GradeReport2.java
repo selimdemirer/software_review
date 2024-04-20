@@ -25,7 +25,7 @@ public class GradeReport2 {
             System.out.println("Invalid s");
         }
 
-        System.out.println("=========Do it with Ternary===========");
+        System.out.println("========= Do it with Ternary ===========");
 
         String result = (s >= 0 && s <= 100)? (s >= 90)? "Excellent" :(s >= 80)? "Great"
                 :(s >= 70)? "Good" :(s >= 60)? "Passed" : "Failed" :"invalid s";
@@ -47,5 +47,8 @@ public class GradeReport2 {
         }
 
         System.out.println(result2);
+
+
     }
+
 }

@@ -12,13 +12,13 @@ public class TernariesIntro {
             System.out.println("Odd"); // String
         }
 
-        System.out.println("--------or/Do it with Ternary---------");
+        System.out.println("-------- or/Do it with Ternary ---------");
 
         String result1 = (n % 2 == 0) ? "Even" : "Odd";
 
         System.out.println(result1);
 
-        System.out.println("==========================================");
+        System.out.println("---------------------1---------------------");
 
         int age = 23;
 
@@ -28,17 +28,17 @@ public class TernariesIntro {
             System.out.println("Not eligible"); // String
         }
 
-        System.out.println("--------or/Do it with Ternary 1---------");
+        System.out.println("-------- or/Do it with Ternary 1 ---------");
 
         System.out.println((age >= 21) ? "Eligible" : "Not eligible");
 
-        System.out.println("--------or/Do it with Ternary 2---------");
+        System.out.println("-------- or/Do it with Ternary 2 ---------");
 
         String result2 = (age >= 21) ? "Eligible" : "Not eligible";
 
         System.out.println(result2);
 
-        System.out.println("==========================================");
+        System.out.println("---------------------2---------------------");
 
         int number = 100;
 
@@ -50,7 +50,7 @@ public class TernariesIntro {
             System.out.println("Zero");
         }
 
-        System.out.println("--------or/Do it with Ternary---------");
+        System.out.println("-------- or/Do it with Ternary ---------");
 
         String result3 = (number > 0) ? "Positive" : (number < 0) ? "Negative" : "Zero";
 

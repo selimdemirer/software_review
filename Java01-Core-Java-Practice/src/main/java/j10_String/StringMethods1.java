@@ -16,7 +16,7 @@ public class StringMethods1 {
         System.out.println("tenthChar = " + tenthChar);
         */
 
-        System.out.println("---------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String s1 = "Batch 25 is the best batch";
 
@@ -28,7 +28,7 @@ public class StringMethods1 {
 
         System.out.println("lastChar = " + lastChar);
 
-        System.out.println("---------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String str = "wooden spoon";
         //str.toUpperCase(); //still "wooden spoon", we didn't create a new string
@@ -42,5 +42,7 @@ public class StringMethods1 {
 
         System.out.println(sentence);
 
+
     }
+
 }

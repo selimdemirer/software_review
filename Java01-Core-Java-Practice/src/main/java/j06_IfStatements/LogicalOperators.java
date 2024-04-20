@@ -12,7 +12,7 @@ public class LogicalOperators {
 
         System.out.println(name + " is eligible to vote: " + isEligible);
 
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------1---------------------");
 
         String name2 = "Josh";
         int creditScore = 720;
@@ -23,7 +23,7 @@ public class LogicalOperators {
 
         System.out.println(name2 + " is eligible for loan: " + isEligible2);
 
-        System.out.println("----------------------------------------------------");
+        System.out.println("---------------------2---------------------");
 
         String name3 = "Shay";
 
@@ -38,7 +38,7 @@ public class LogicalOperators {
 
         System.out.println(name3+" is eligible to register: "+isEligible3);
 
-        System.out.println("-------------------------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         String name4 = "James";
 
@@ -50,7 +50,7 @@ public class LogicalOperators {
 
         System.out.println(name4 +" is eligible to apply for US citizenShip: "+isEligible4);
 
-        System.out.println("----------------------------------------------------------------");
+        System.out.println("---------------------4---------------------");
 
         String student = "Ali";
 
@@ -62,7 +62,7 @@ public class LogicalOperators {
 
         System.out.println(student +" is eligible for scholarship: "+isEligible5);
 
-        System.out.println("-------------------------------------------");
+        System.out.println("---------------------5---------------------");
 
         boolean result2 = true;
 
@@ -72,7 +72,7 @@ public class LogicalOperators {
 
         System.out.println("result3 = " + result3);
 
-        System.out.println("-------------------------------------------");
+        System.out.println("---------------------6---------------------");
 
         int score = 55;
         boolean passed = score >= 60;

@@ -13,7 +13,7 @@ public class BranchingStatements2 {
         }
 
         System.out.println();
-        System.out.println("---------------------------");
+        System.out.println("---------------------1---------------------");
 
         // print all even numbers 1~10
         for (int i = 1; i <= 10; i++) {
@@ -25,7 +25,7 @@ public class BranchingStatements2 {
         }
 
         System.out.println();
-        System.out.println("----------------------------");
+        System.out.println("---------------------2---------------------");
 
         // print all odd numbers 1~10
         for (int i = 1; i <= 10; i++) {
@@ -38,4 +38,5 @@ public class BranchingStatements2 {
 
 
     }
+
 }
