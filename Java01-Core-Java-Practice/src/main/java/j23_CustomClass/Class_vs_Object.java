@@ -3,6 +3,7 @@ package j23_CustomClass;
 public class Class_vs_Object {
 
 /*
+
 Class:
 • Where Objects came from
 • An entity that determines how an object will behave and what the object will contain
