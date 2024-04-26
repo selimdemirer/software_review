@@ -23,6 +23,11 @@ public class Constructor_vs_StaticBlock {
 
 }
 /*
+static block: used for initializing static variables
+			  gets executed as son as the class is loaded
+			  runs first before everything, only runs one time
+			  if the static variables need several steps to be initialized
+
    Execution Flow:
 1-Static Blocks (only once)
 2-Instance Blocks (whenever we create an object)
