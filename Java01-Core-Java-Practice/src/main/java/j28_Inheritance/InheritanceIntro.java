@@ -34,6 +34,33 @@ public class InheritanceIntro {
     • Multi Level Inheritance: Subclass will be inheriting a Super Class and as well as the subclass also act as the Super Class to the other class.
     • Multiple Inheritance: Java DOES NOT support multiple inheritance with classes. One class can not have more than one superclass and inherit features from all parent class.
 
+    this keyword: refers to the instances. Current class
+	        this.  : calls instance variables & instance methods
+	        this() : calls the constructor of current class
+
+    super keyword: refers to the instances. Parent class
+	        super.  : calls instance variables & instance methods of super class
+	        super() : calls the constructor of parent class
+
+	Method Overloading: multiple different methods having the same name, parameters MUST be different
+            • ANY method can be overloaded
+
+    Method Overriding: giving different implementations to the method
+            • MUST happen in the child class
+            • return-type, method name, parameter MUST be same
+            • Access modifier need to be same or more visible
+				public > protected > default
+	        • Method we can not override: private, static, final
+            • ONLY the instance methods (not final & not private) can be overriden
+            • @Overriden annotation must be applicable
+
+    Access Modifiers:
+            • public > protected > default > private
+
+    Object Class: presented in "java.lang" package.
+            • parent of all the classes.
+            • implicitly extended to all classes
+
 */
 
 }
