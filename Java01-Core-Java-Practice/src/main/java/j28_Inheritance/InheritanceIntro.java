@@ -4,6 +4,14 @@ public class InheritanceIntro {
 
 /*
 
+    OOP Principles:
+    • OOP: A design pattern of the applications in an organized and modular way
+    • There are 4 Object-Oriented Programming (OOP) principles:
+        • Encapsulation (data hiding from code that’s outside the class)
+        • Inheritance (creating an “is a” relationship among the classes)
+        • Abstraction (process of hiding implementation details from the user)
+        • Polymorphism (ability of the objects to take on many forms)
+
     Inheritance (Is A relation):
     • Used for creating an “is a” relationship among the classes.
     • When an “is-a” relationship exists between objects, it means that the specialized object has all the characteristics of the general object.

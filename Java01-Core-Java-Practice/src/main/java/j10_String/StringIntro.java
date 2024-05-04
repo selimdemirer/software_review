@@ -31,7 +31,6 @@ public class StringIntro {
 
         System.out.println( s1.equals(s2) ); // true
 
-
         String s3 = "Java";
         String s4 =new String("java");
 

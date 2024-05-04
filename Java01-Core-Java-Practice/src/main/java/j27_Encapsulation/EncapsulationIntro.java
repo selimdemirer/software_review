@@ -5,12 +5,12 @@ public class EncapsulationIntro {
 /*
 
     OOP Principles:
-    • There are 4 Object-Oriented Programming (OOP) principles:
-        • Encapsulation
-        • Inheritance
-        • Abstraction
-        • Polymorphism
     • OOP: A design pattern of the applications in an organized and modular way
+    • There are 4 Object-Oriented Programming (OOP) principles:
+        • Encapsulation (data hiding from code that’s outside the class)
+        • Inheritance (creating an “is a” relationship among the classes)
+        • Abstraction (process of hiding implementation details from the user)
+        • Polymorphism (ability of the objects to take on many forms)
 
     Encapsulation (Data Hiding):
     • An object hides its internal data from code that’s outside the class.

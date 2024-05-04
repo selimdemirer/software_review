@@ -2,6 +2,15 @@ package j21_WrapperClasses;
 
 public class WrapperClassesIntro {
 
+/*
+    • Wrapper Classes presented in "java.lang" package.
+    • We don't have to import anything from "java.lang" package because it is imported implicitly.
+    • A "Wrapper Class" only accepts its primitive type! But you can assign a "Wrapper Class" to any primitive type as long as within its range!
+    • Autoboxing and Unboxing are implicitly done!
+    • parse"WrapperClass"(str): converts String to primitive, return type is primitive. [ Integer.parseInt(str) / Double.parseDouble(str) ]
+    • valueOf(str): converts String to Wrapper Class, return type is Wrapper Class object. [ Integer.valueOf(str) / Double.valueOf(str) ]
+*/
+
     public static void main(String[] args) {
 
         int num1 = 200;
@@ -48,11 +57,3 @@ public class WrapperClassesIntro {
     }
 
 }
-/*
-Wrapper Classes presented in "java.lang" package.
-✨ We don't have to import anything from "java.lang" package because it is imported implicitly.
-✨ A "Wrapper Class" only accepts its primitive type! But you can assign a "Wrapper Class" to any primitive type as long as within its range!
-✨ Autoboxing and Unboxing are implicitly done!
-✨ parse"WrapperClass"(str): converts String to primitive, return type is primitive. [ Integer.parseInt(str) / Double.parseDouble(str) ]
-✨ valueOf(str): converts String to Wrapper Class, return type is Wrapper Class object. [ Integer.valueOf(str) / Double.valueOf(str) ]
-*/
