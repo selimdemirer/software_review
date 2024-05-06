@@ -3,6 +3,7 @@ package j32_Abstraction;
 public class AbstractionIntro {
 
 /*
+
     OOP Principles:
     • OOP: A design pattern of the applications in an organized and modular way
     • There are 4 Object-Oriented Programming (OOP) principles:
@@ -60,9 +61,9 @@ public class AbstractionIntro {
     • Public is the only access modifier that can be used in interface and given by default
     • Abstract keyword is given by default to the abstract methods of interface
 
-    What interface can have?
+    What Interface can have?
     • Variables: static & final variable only
-    • Methods: static, abstract and default methods only
+    • Methods: static, abstract and default methods only (You can use "default" method to create method with implementation. Like static method. You can only use the method keyword "default" in interfaces.)
 
     What Interface can not have?
     • An interface can not have instance variables
