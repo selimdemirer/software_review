@@ -4,9 +4,22 @@ import java.util.Arrays;
 
 public class ArraysIntro {
 
+/*
+    Data Structures: Work with multiple data
+
+	    • Array (Supports both primitives & non-primitives)
+	    • Collection (Supports non-primitives ONLY)
+	    • Map (Collection of Pairs)
+
+    Array:
+    • Size is fixed
+	• Supports both primitives & non-primitives
+
+*/
+
     public static void main(String[] args) {
 
-        // create a variable that's capable enough to contain 5 names
+     // create a variable that's capable enough to contain 5 names
 
      // String myGroup[];
         String[] myGroup = new String[5]; // index : 0~4
@@ -35,7 +48,7 @@ public class ArraysIntro {
 
         System.out.println(days[number-1]);
 
-
     }
+
 
 }
