@@ -42,11 +42,11 @@ public class CollectionsIntro {
 
 			Set (I): does NOT accept duplicates, does NOT have index
 
-				HashSet (C): order is random / fastest / it does not need to call the methods through the objects
+				    HashSet (C): order is random / fastest / it does not need to call the methods through the objects
 
-				LinkedHashSet (C): keeps the insertion order as it is / it does not need to call the methods through the objects
+				    LinkedHashSet (C): keeps the insertion order as it is / it does not need to call the methods through the objects
 
-				TreeSet (C): keeps the sorted order (Ascending -> 5, 85, 95, 452, 2356)
+				    TreeSet (C): keeps the sorted order (Ascending -> 5, 85, 95, 452, 2356)
 						     does not accept null / it internally calles the method, so if you give a null object it gives null pointer exception
 
 			 Queue(I): duplicates are allowed
@@ -54,34 +54,43 @@ public class CollectionsIntro {
 				       First in - First out order (FIFO)
                        poll() ===> FIFO
 
-				PriorityQueue (C): implements the Queue interface, maintains the random order, does not accept null
+				    PriorityQueue (C): implements the Queue interface, maintains the random order, does not accept null
 
-				ArrayDeque (C): implements the Deque interface, maintain the insertion order, accepts null values
+				    ArrayDeque (C): implements the Deque interface, maintain the insertion order, accepts null values
 
-				LinkedList (C): Insertion and deletion ( add()/remove() ) are faster than PriorityQueue and ArrayDeque in "LinkedList"; and it does have index number
-
-
-List                         Queue                            Set
-Duplicates are allowed       Duplicates are allowed           Duplicates are not allowed
-Insertion order preserved    Insertion order not preserved    Insertion order not preserved
-Has index                    Does not have index              Does not have index
-
-• List: If we want to represent a group of individual objects as a single entity where duplicates are allowed, and insertion order preserved
-• Queue: If we want to represent a group of individual objects prior to processing
-• Set: If we want to represent a group of individual objects as a single entity where duplicates are NOT allowed, and insertion order NOT preserved
+				    LinkedList (C): Insertion and deletion ( add()/remove() ) are faster than PriorityQueue and ArrayDeque in "LinkedList"; and it does have index number
 
 
-Synchronized: multiple threads are being executed one thread at time
+    List                         Queue                            Set
+    Duplicates are allowed       Duplicates are allowed           Duplicates are not allowed
+    Insertion order preserved    Insertion order not preserved    Insertion order not preserved
+    Has index                    Does not have index              Does not have index
+
+    • List: If we want to represent a group of individual objects as a single entity where duplicates are allowed, and insertion order preserved
+    • Queue: If we want to represent a group of individual objects prior to processing
+    • Set: If we want to represent a group of individual objects as a single entity where duplicates are NOT allowed, and insertion order NOT preserved
+
+
+    Synchronized: multiple threads are being executed one thread at time
 			advantage: thread-safe
 			disadvantage: slower
 
-process: execution instance of a program
+    process: execution instance of a program
 
-thread: A sequence of execution within process
+    thread: A sequence of execution within process
 
-multi-threading: two or more threads being executed within the process
+    multi-threading: two or more threads being executed within the process
 
-multi-tasking: two or more process are running
+    multi-tasking: two or more process are running
+
+    Iterable : Iterable is used for removing the object from the collection type during the iteration. Without the iterable it will eventually give you a bug.
+
+    We can obtain the Iterator by using the iterator() method of an Iterable
+
+    Iterator provides the ready methods that can be used while traversing the collections:
+        • hasNext( )
+        • next( )
+        • remove( )
 
 */
 
