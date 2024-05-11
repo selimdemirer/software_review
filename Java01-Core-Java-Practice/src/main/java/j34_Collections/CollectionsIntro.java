@@ -70,27 +70,39 @@ public class CollectionsIntro {
     • Queue: If we want to represent a group of individual objects prior to processing
     • Set: If we want to represent a group of individual objects as a single entity where duplicates are NOT allowed, and insertion order NOT preserved
 
-
-    Synchronized: multiple threads are being executed one thread at time
-			advantage: thread-safe
-			disadvantage: slower
-
-    process: execution instance of a program
-
-    thread: A sequence of execution within process
-
-    multi-threading: two or more threads being executed within the process
-
-    multi-tasking: two or more process are running
-
-    Iterable : Iterable is used for removing the object from the collection type during the iteration. Without the iterable it will eventually give you a bug.
-
-    We can obtain the Iterator by using the iterator() method of an Iterable
-
-    Iterator provides the ready methods that can be used while traversing the collections:
+    Iterable :
+    • Parent interface of Collection interface
+    • Allows the object to be Iterated by using Iterator
+    •  Iterable is used for removing the object from the collection type during the iteration. Without the iterable it will eventually give you a bug.
+    • We can obtain the Iterator by using the iterator() method of an Iterable
+    • Iterator provides the ready methods that can be used while traversing the collections:
         • hasNext( )
         • next( )
         • remove( )
+
+    Process:
+    • Programs that are scheduled for execution in the CPU
+    • An instance of a program running on a computer.
+    • A process has code, data, heap and other segments
+
+    Thread:
+    • A subset of a process
+    • A sequence of execution within a process
+    • Every single process at least have one thread
+    • Shares all the resources of process
+
+    Multi-threading:
+    • Two or more threads being executed within the process
+
+    Multi-tasking:
+    • Two or more process are running
+
+    Synchronized:
+    • Process of controlling the access of multiple threads to any shared resource
+    • Only one thread to access the shared resource at a time (Thread-safety)
+    • Advantage: thread-safe
+    • Disadvantage: slower
+
 
 */
 
