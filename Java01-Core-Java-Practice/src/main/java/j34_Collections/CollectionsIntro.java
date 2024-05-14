@@ -73,7 +73,7 @@ public class CollectionsIntro {
     Iterable :
     • Parent interface of Collection interface
     • Allows the object to be Iterated by using Iterator
-    •  Iterable is used for removing the object from the collection type during the iteration. Without the iterable it will eventually give you a bug.
+    • Iterable is used f or removing the object from the collection type during the iteration. Without the iterable it will eventually give you a bug.
     • We can obtain the Iterator by using the iterator() method of an Iterable
     • Iterator provides the ready methods that can be used while traversing the collections:
         • hasNext( )
