@@ -45,9 +45,9 @@ public class MapIntro {
 
         remove(key, value): it returns "boolean"
 
-		containsKey(key): returns true if the given key is conatined in the map, otherwise returns false
+		containsKey(key): returns true if the given key is contained in the map, otherwise returns false
 
-		containsValue(Value): returns true if the given value is conatined in the map, otherwise returns false
+		containsValue(Value): returns true if the given value is contained in the map, otherwise returns false
 
 		isEmpty(): returns true if the size of the map is 0, otherwise returns false
 

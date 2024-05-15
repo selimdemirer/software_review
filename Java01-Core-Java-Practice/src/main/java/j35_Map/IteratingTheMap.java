@@ -55,6 +55,7 @@ public class IteratingTheMap {
 
         System.out.println("---------------------2---------------------");
 
+        // Finding min - max : Manuel solution
         int maxScore = Integer.MIN_VALUE;
         int minScore = Integer.MAX_VALUE;
 
@@ -68,6 +69,7 @@ public class IteratingTheMap {
 
         System.out.println("---------------------3---------------------");
 
+        // Finding min - max : Collections solution
         int max = Collections.max( students.values() );
         int min = Collections.min( students.values() );
 
@@ -77,7 +79,6 @@ public class IteratingTheMap {
         System.out.println("---------------------4---------------------");
 
         // how many students has the score of 95 or greater
-
         int count = 0;
 
         for (Integer eachScore : students.values()) {
@@ -99,8 +100,10 @@ public class IteratingTheMap {
 
         System.out.println("---------------------5---------------------");
 
+        //Map.Entry<K,V>
         for (Map.Entry<String, Integer> entry : students.entrySet()) {
-            //System.out.println(entry);
+            if(entry.getValue().equals(80)) entry.setValue(81);
+            // System.out.println(entry);
             System.out.println(entry.getKey() +" : " +entry.getValue());
         }
 

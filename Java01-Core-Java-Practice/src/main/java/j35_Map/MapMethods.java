@@ -1,7 +1,6 @@
 package j35_Map;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class MapMethods {
 
@@ -66,15 +65,13 @@ public class MapMethods {
         Map<String, Integer> map2 = new HashMap<>();
         map2.putAll(students);
 
-        System.out.println("---------------------7---------------------");
-
         System.out.println("map1 = " + map1);
         System.out.println("map2 = " + map2);
 
-        System.out.println(map1 ==  map2);
-        System.out.println(map1.equals(map2));
+        System.out.println(map1 == map2); // false
+        System.out.println(map1.equals(map2)); // true
 
-        System.out.println("---------------------8---------------------");
+        System.out.println("---------------------7---------------------");
 
         map1.clear();
         map2.clear();
