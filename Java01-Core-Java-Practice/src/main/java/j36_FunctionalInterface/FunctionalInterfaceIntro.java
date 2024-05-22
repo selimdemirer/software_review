@@ -16,6 +16,11 @@ public class FunctionalInterfaceIntro {
     • Expresses the instances of a functional Interface
     • Can be assigned to the instance of functional interface
 
+    Regular Interface                                          Functional Interface
+    Purpose is just to provide methods to the subclasses       Purpose is creating function, not for inheritance
+    Can have multiple abstract method                          Must have only one abstract method (Known as SAM interface)
+    Uses method overriding							  		   Uses lambda expression
+
     Build In Functional Interfaces:
         • Predicate : Represents a function which takes one argument (any object) and returns boolean
         • Consumer : Represents a function which takes one argument (any object) and does not return a value
