@@ -86,38 +86,60 @@ public class Practice {
     public static List<String> getAllEmployeesFirstName() {
         //TODO Implement the method
         return employeeService.readAll().stream()
-                .map(p->p.getFirstName())
+                .map(Employee::getFirstName)
+                // .map(employee -> employee.getFirstName()) map: We are giving Stream<List> and taking Stream<String>
                 .collect(Collectors.toList());
     }
 
     // 9. Display all the countries' names
     public static List<String> getAllCountryNames() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return countryService.readAll().stream()
+                // .map(Country::getCountryName)
+                .map(country -> country.getCountryName())
+                .collect(Collectors.toList());
     }
 
     // 10. Display all the departments' managers' first names
     public static List<String> getAllDepartmentManagerFirstNames() {
         //TODO Implement the method
-        return new ArrayList<>();
+        /*return departmentService.readAll().stream()
+                .map(department -> department.getManager().getFirstName())
+                .collect(Collectors.toList());*/
+        return departmentService.readAll().stream()
+                .map(Department::getManager)
+                .map(Employee::getFirstName)
+                .collect(Collectors.toList());
     }
 
     // 11. Display all the departments where manager name of the department is 'Steven'
     public static List<Department> getAllDepartmentsWhichManagerFirstNameIsSteven() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return departmentService.readAll().stream()
+                .filter(department -> department.getManager().getFirstName().equals("Steven"))
+                // I have Stream<Department> object now, I need to transform it to List<Department>
+                .collect(Collectors.toList());
     }
 
     // 12. Display all the departments where postal code of the location of the department is '98199'
     public static List<Department> getAllDepartmentsWhereLocationPostalCodeIs98199() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return departmentService.readAll().stream()
+                .filter(department -> department.getLocation().getPostalCode().equals("98199"))
+                // I have Stream<Department> object now, I need to transform it to List<Department>
+                .collect(Collectors.toList());
     }
 
     // 13. Display the region of the IT department
     public static Region getRegionOfITDepartment() throws Exception {
         //TODO Implement the method
-        return new Region();
+        /*return departmentService.readAll().stream()
+                .filter(department -> department.getDepartmentName().equalsIgnoreCase("IT"))
+                .map(department -> department.getLocation().getCountry().getRegion())
+                .findAny().get();*/
+        return departmentService.readAll().stream()
+                .filter(department -> department.getDepartmentName().equalsIgnoreCase("IT"))
+                .findFirst().orElseThrow().getLocation().getCountry().getRegion();
     }
 
     // 14. Display all the departments where the region of department is 'Europe'
