@@ -200,11 +200,11 @@ public class Practice {
         //TODO Implement the method
         return employeeService.readAll().stream()
                 .filter(employee -> employee.getFirstName().equals("Douglas") && employee.getLastName().equals("Grant"))
-                .findFirst().orElseThrow(()-> new Exception("Employee cannot be found")).getSalary();
+                .findFirst().orElseThrow(() -> new Exception("Employee cannot be found")).getSalary();
     }
 
     // 20. Display the maximum salary an employee gets
-    public static Long getMaxSalary(){
+    public static Long getMaxSalary() {
         //TODO Implement the method
         return employeeService.readAll().stream()
                 .max(Comparator.comparing(Employee::getSalary))
@@ -285,7 +285,7 @@ public class Practice {
     }
 
     // 25. Display the employee(s) who gets the second maximum salary
-    public static List<Employee> getSecondMaxSalaryEmployee(){
+    public static List<Employee> getSecondMaxSalaryEmployee() {
         //TODO Implement the method
         return employeeService.readAll().stream()
                 .filter(employee -> employee.getSalary().equals(getSecondMaxSalary()))
@@ -476,37 +476,71 @@ public class Practice {
     // Note: You can assume that there is no middle name
     public static List<String> getAllEmployeesInitials() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return employeeService.readAll().stream()
+                .map(employee -> employee.getFirstName().substring(0, 1) + employee.getLastName().substring(0, 1))
+                .collect(Collectors.toList());
+
+//        return employeeService.readAll().stream()
+//                .map(employee -> {
+//                    char firstInitial = employee.getFirstName().charAt(0);
+//                    char lastInitial = employee.getLastName().charAt(0);
+//                    return ""+firstInitial+lastInitial;
+//                })
+//                .collect(Collectors.toList());
+
     }
 
     // 46. Display the full names of all the employees
     public static List<String> getAllEmployeesFullNames() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return employeeService.readAll().stream()
+                .map(employee -> employee.getFirstName() + " " + employee.getLastName())
+                .collect(Collectors.toList());
     }
 
     // 47. Display the length of the longest full name(s)
-    public static Integer getLongestNameLength() throws Exception {
+    public static Integer getLongestNameLength() {
         //TODO Implement the method
-        return 1;
+        return getAllEmployeesFullNames().stream()
+                .max(Comparator.comparing(String::length))
+                .orElseThrow().length();
     }
 
     // 48. Display the employee(s) with the longest full name(s)
     public static List<Employee> getLongestNamedEmployee() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return employeeService.readAll().stream()
+                .filter(employee -> employee.getFirstName().length() + 1 + employee.getLastName().length() == getLongestNameLength())
+                .collect(Collectors.toList());
     }
 
     // 49. Display all the employees whose department id is 90, 60, 100, 120, or 130
     public static List<Employee> getAllEmployeesDepartmentIdIs90or60or100or120or130() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return employeeService.readAll().stream()
+                .filter(employee -> employee.getDepartment().getId().equals(90L) ||
+                        employee.getDepartment().getId().equals(60L) ||
+                        employee.getDepartment().getId().equals(100L) ||
+                        employee.getDepartment().getId().equals(120L) ||
+                        employee.getDepartment().getId().equals(130L))
+                .collect(Collectors.toList());
     }
 
     // 50. Display all the employees whose department id is NOT 90, 60, 100, 120, or 130
     public static List<Employee> getAllEmployeesDepartmentIdIsNot90or60or100or120or130() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return employeeService.readAll().stream()
+                .filter(employee -> !getAllEmployeesDepartmentIdIs90or60or100or120or130().contains(employee))
+                .collect(Collectors.toList());
+
+//        return employeeService.readAll().stream()
+//                .filter(employee -> employee.getDepartment().getId() != (90L)
+//                        && employee.getDepartment().getId() != (60L)
+//                        && employee.getDepartment().getId() != (100L)
+//                        && employee.getDepartment().getId() != (120L)
+//                        && employee.getDepartment().getId() != (130L))
+//                .collect(Collectors.toList());
+
     }
 
 }
