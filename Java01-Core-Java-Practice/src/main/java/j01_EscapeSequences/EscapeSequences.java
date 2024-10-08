@@ -10,6 +10,7 @@ Escape Sequences: MUST be given within double quote
 
  */
 public class EscapeSequences {
+
     public static void main(String[] args) {
 
         System.out.println("Java \nPython \nC#");
@@ -22,11 +23,11 @@ public class EscapeSequences {
 
         System.out.println("\tJava is Cool Programming Language");
 
-        System.out.println("----------------------------------------");
+        System.out.println("---------------------3---------------------");
 
         System.out.println("/ \\\\"); //If you need 1 backslash, you need to type 2
 
-        System.out.println("---------------------3---------------------");
+        System.out.println("---------------------4---------------------");
 
         System.out.println("My favourite TV show is \"Patriot Act\"");
     }

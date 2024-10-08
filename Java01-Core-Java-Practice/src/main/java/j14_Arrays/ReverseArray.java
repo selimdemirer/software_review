@@ -19,8 +19,8 @@ public class ReverseArray {
         reversed[3] = numbers[0];
         */
 
-        int j = 0;
-        for (int i = numbers.length - 1 ; i >= 0; i--, j++) {
+        //int j = 0;
+        for (int i = numbers.length - 1, j=0 ; i >= 0; i--, j++) {
             reversed[j] = numbers[i];
         }
 
