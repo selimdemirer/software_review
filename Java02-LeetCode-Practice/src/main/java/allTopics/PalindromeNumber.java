@@ -2,7 +2,7 @@ package allTopics;
 
 import java.util.Arrays;
 
-public class PalindromeNumberBruteForce {
+public class PalindromeNumber {
 
     public static void main(String[] args) {
 

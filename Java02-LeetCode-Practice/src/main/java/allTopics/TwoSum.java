@@ -2,7 +2,7 @@ package allTopics;
 
 import java.util.Arrays;
 
-class TwoSumBruteForce {
+class TwoSum {
 
     public static void main(String[] args) {
 
